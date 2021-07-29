@@ -1,0 +1,22 @@
+{
+  "name": "naggarobootcamp",
+  "version": "1.0.0",
+  "description": "NPMForReactApps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanmayPriyadarshi/NaggaroBootCamp.git"
+  },
+  "author": "Tanmay Priyadarshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanmayPriyadarshi/NaggaroBootCamp/issues"
+  },
+  "homepage": "https://github.com/TanmayPriyadarshi/NaggaroBootCamp#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
+}

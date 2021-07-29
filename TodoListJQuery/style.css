@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(to right, #2e2c2c, #514f4f, #777474, #a09c9c, #cac6c6);
+}
+
+nav{
+    border: 1px solid black;
+    background-color:#292944;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+nav > image{
+    margin: 10px;
+}
+
+nav > h1{
+    color: white;
+    margin: 10px;
+    align-self: center;
+}
+
+.todo__app{
+    border: 1px solid white;
+    width: 300px;
+    height: 270px;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.todo__header{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    background-color:#1E90FF;
+}
+
+.todo__header  > p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.todo__header  > p > span{
+    font-size: 1.2rem;
+    color: white;
+    flex: 1;
+    padding: 10px;
+}
+
+.todo__header  > p > img{
+    width: 40px;
+    height: 40px;
+}
+
+.visibility{
+    display: none;
+}
+
+.todo__header > input{
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.todo__body{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.todo__body > li{
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    align-items: center;
+    margin: 5px;
+}
+
+.todo__body > li > img{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.todo__body > li > strong{
+    padding-left: 10px;
+}
